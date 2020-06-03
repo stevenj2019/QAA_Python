@@ -1,5 +1,5 @@
 import pytest
-from code import factorial
+from factorial import factorial
 
 def test_factorial():
-    assert factorial.factorial(6) == 720
+    assert factorial(6) == 720
