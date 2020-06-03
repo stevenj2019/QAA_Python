@@ -57,9 +57,6 @@ num2words = {1: 'One', 2: 'Two', 3: 'Three', 4: 'Four', 5: 'Five', \
 
 units = ["Thousand", "Million", "Billion", "Trillion"]
 
-#example number 4,988,364,712 == [[7, 1, 2], [3, 6, 4], [9, 8, 8], [4]]
-
-
 number = _numSplitter(sys.argv[1]) #3d array
 counter = 0
 output = deque()
