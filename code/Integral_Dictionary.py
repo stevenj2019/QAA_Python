@@ -1,7 +1,7 @@
 import sys
 
 def IntegralDictionary(n):
-    Integrals = {}
+    Integrals = dict()
     for i in range(1, n+1):
         Integrals[i] = i*i
     return Integrals
