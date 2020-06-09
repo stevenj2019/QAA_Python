@@ -1,0 +1,4 @@
+.DS_Store
+Code/__pycache__/
+Tests/__pycache__/
+exampleAssessment/Code/__pycache__/
